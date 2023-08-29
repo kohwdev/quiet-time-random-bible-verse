@@ -1,0 +1,328 @@
+[
+ {
+   "Book": "Genesis",
+   "TotalChapters": 50,
+   "TotalVerses": 1533
+ },
+ {
+   "Book": "Exodus",
+   "TotalChapters": 40,
+   "TotalVerses": 1213
+ },
+ {
+   "Book": "Leviticus",
+   "TotalChapters": 27,
+   "TotalVerses": 859
+ },
+ {
+   "Book": "Numbers",
+   "TotalChapters": 36,
+   "TotalVerses": 1288
+ },
+ {
+   "Book": "Deuteronomy",
+   "TotalChapters": 34,
+   "TotalVerses": 1182
+ },
+ {
+   "Book": "Joshua",
+   "TotalChapters": 24,
+   "TotalVerses": 658
+ },
+ {
+   "Book": "Judges",
+   "TotalChapters": 21,
+   "TotalVerses": 618
+ },
+ {
+   "Book": "Ruth",
+   "TotalChapters": 4,
+   "TotalVerses": 85
+ },
+ {
+   "Book": "1 Samuel",
+   "TotalChapters": 31,
+   "TotalVerses": 810
+ },
+ {
+   "Book": "1 Kings",
+   "TotalChapters": 22,
+   "TotalVerses": 816
+ },
+ {
+  "Book": "2 Kings",
+  "TotalChapters": 25,
+  "TotalVerses": 719
+},
+{
+  "Book": "1 Chronicles",
+  "TotalChapters": 29,
+  "TotalVerses": 942
+},
+{
+  "Book": "2 Chronicles",
+  "TotalChapters": 36,
+  "TotalVerses": 822
+},
+{
+  "Book": "Ezra",
+  "TotalChapters": 10,
+  "TotalVerses": 280
+},
+{
+  "Book": "Nehemiah",
+  "TotalChapters": 13,
+  "TotalVerses": 406
+},
+{
+  "Book": "Esther",
+  "TotalChapters": 10,
+  "TotalVerses": 167
+},
+{
+  "Book": "Job",
+  "TotalChapters": 42,
+  "TotalVerses": 1070
+},
+{
+  "Book": "Psalms",
+  "TotalChapters": 150,
+  "TotalVerses": 2461
+},
+{
+  "Book": "Proverbs",
+  "TotalChapters": 31,
+  "TotalVerses": 942
+},
+{
+  "Book": "Ecclesiastes",
+  "TotalChapters": 12,
+  "TotalVerses": 222
+},
+{
+ "Book": "Song of Solomon",
+ "TotalChapters": 8,
+ "TotalVerses": 117
+},
+{
+ "Book": "Isaiah",
+ "TotalChapters": 66,
+ "TotalVerses": 1292
+},
+{
+ "Book": "Jeremiah",
+ "TotalChapters": 52,
+ "TotalVerses": 1364
+},
+{
+ "Book": "Lamentations",
+ "TotalChapters": 5,
+ "TotalVerses": 154
+},
+{
+ "Book": "Ezekiel",
+ "TotalChapters": 48,
+ "TotalVerses": 1273
+},
+{
+ "Book": "Daniel",
+ "TotalChapters": 12,
+ "TotalVerses": 358
+},
+{
+ "Book": "Hosea",
+ "TotalChapters": 14,
+ "TotalVerses": 197
+},
+{
+ "Book": "Joel",
+ "TotalChapters": 3,
+ "TotalVerses": 73
+},
+{
+ "Book": "Amos",
+ "TotalChapters": 9,
+ "TotalVerses": 146
+},
+{
+ "Book": "Obadiah",
+ "TotalChapters": 1,
+ "TotalVerses": 21
+},
+{
+ "Book": "Jonah",
+ "TotalChapters": 4,
+ "TotalVerses": 49
+},
+{
+ "Book": "Micah",
+ "TotalChapters": 7,
+ "TotalVerses": 105
+},
+{
+ "Book": "Nahum",
+ "TotalChapters": 3,
+ "TotalVerses": 47
+},
+{
+ "Book": "Habakkuk",
+ "TotalChapters": 3,
+ "TotalVerses": 56
+},
+{
+ "Book": "Zephaniah",
+ "TotalChapters": 3,
+ "TotalVerses": 53
+},
+{
+ "Book": "Haggai",
+ "TotalChapters": 2,
+ "TotalVerses": 38
+},
+{
+ "Book": "Zechariah",
+ "TotalChapters": 14,
+ "TotalVerses": 211
+},
+{
+ "Book": "Malachi",
+ "TotalChapters": 4,
+ "TotalVerses": 55
+},
+{
+ "Book": "Matthew",
+ "TotalChapters": 28,
+ "TotalVerses": 1071
+},
+{
+ "Book": "Mark",
+ "TotalChapters": 16,
+ "TotalVerses": 674
+},
+{
+ "Book": "Luke",
+ "TotalChapters": 24,
+ "TotalVerses": 1151
+},
+{
+ "Book": "John",
+ "TotalChapters": 21,
+ "TotalVerses": 879
+},
+{
+ "Book": "Acts",
+ "TotalChapters": 28,
+ "TotalVerses": 1005
+},
+{
+ "Book": "Romans",
+ "TotalChapters": 16,
+ "TotalVerses": 433
+},
+{
+ "Book": "1 Corinthians",
+ "TotalChapters": 16,
+ "TotalVerses": 437
+},
+{
+ "Book": "2 Corinthians",
+ "TotalChapters": 13,
+ "TotalVerses": 257
+},
+{
+ "Book": "Galatians",
+ "TotalChapters": 6,
+ "TotalVerses": 149
+},
+{
+ "Book": "Ephesians",
+ "TotalChapters": 6,
+ "TotalVerses": 155
+},
+{
+ "Book": "Philippians",
+ "TotalChapters": 4,
+ "TotalVerses": 104
+},
+{
+ "Book": "Colossians",
+ "TotalChapters": 4,
+ "TotalVerses": 95
+},
+{
+ "Book": "1 Thessalonians",
+ "TotalChapters": 5,
+ "TotalVerses": 89
+},
+{
+ "Book": "2 Thessalonians",
+ "TotalChapters": 3,
+ "TotalVerses": 47
+},
+{
+ "Book": "1 Timothy",
+ "TotalChapters": 6,
+ "TotalVerses": 113
+},
+{
+ "Book": "2 Timothy",
+ "TotalChapters": 4,
+ "TotalVerses": 83
+},
+{
+ "Book": "Titus",
+ "TotalChapters": 3,
+ "TotalVerses": 46
+},
+{
+ "Book": "Philemon",
+ "TotalChapters": 1,
+ "TotalVerses": 25
+},
+{
+ "Book": "Hebrews",
+ "TotalChapters": 13,
+ "TotalVerses": 303
+},
+{
+ "Book": "James",
+ "TotalChapters": 5,
+ "TotalVerses": 108
+},
+{
+ "Book": "1 Peter",
+ "TotalChapters": 5,
+ "TotalVerses": 105
+},
+{
+ "Book": "2 Peter",
+ "TotalChapters": 3,
+ "TotalVerses": 61
+},
+{
+ "Book": "1 John",
+ "TotalChapters": 5,
+ "TotalVerses": 105
+},
+{
+ "Book": "2 John",
+ "TotalChapters": 1,
+ "TotalVerses": 13
+},
+{
+ "Book": "3 John",
+ "TotalChapters": 1,
+ "TotalVerses": 14
+},
+{
+ "Book": "Jude",
+ "TotalChapters": 1,
+ "TotalVerses": 25
+},
+{
+ "Book": "Revelation",
+ "TotalChapters": 22,
+ "TotalVerses": 404
+}
+]
+

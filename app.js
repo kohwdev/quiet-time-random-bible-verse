@@ -9,6 +9,7 @@ const exphbs = require('express-handlebars');
 const methodOverride = require('method-override');
 const MongoStore = require('connect-mongo');
 const connectDB = require('./config/db');
+const axios = require('axios');
 
 //Load config
 dotenv.config({ path: './config/config.env' })
@@ -40,18 +41,33 @@ if(process.env.NODE_ENV === 'development'){
 }
 
 //Handlebars Helpers
-const { formatDate, stripTags, truncate, editIcon, select } = require('./helpers/hbs')
+const { stripTags, truncate, editIcon, select } = require('./helpers/hbs')
 
 
 //Handlebars
 app.engine('.hbs', exphbs.engine({ helpers: {
- formatDate,
+ formatDate: function(date) {
+  // options for date format
+  const options = {
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric"
+  };
+
+  const formattedDate = new Date(date).toLocaleString("en-US", options);
+
+  const [datePart, timePart] = formattedDate.split(' at ');
+
+  return `${datePart}, ${timePart}`
+ },
  stripTags,
  truncate,
  editIcon,
  select,
 }, defaultLayout: 'main', extname: '.hbs' }))
 app.set('view engine', '.hbs')
+
 
 
 // Sessions
@@ -72,6 +88,8 @@ app.use(function (req, res, next) {
  res.locals.user = req.user || null
  next()
 })
+
+
 
 
 
