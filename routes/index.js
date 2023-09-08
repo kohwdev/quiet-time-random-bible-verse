@@ -55,43 +55,7 @@ router.get('/dashboard', ensureAuth, async (req, res) => {
   }
 });
 
+
+
 module.exports = router;
 
-// // @desc    Dashboard
-// // @route   GET /dashboard
-// router.get('/dashboard', ensureAuth, async (req, res) => {
-//   try {
-//     //Grab random book from the bible
-//     const randomBook = bibleBooks[Math.floor(Math.random() * bibleBooks.length)];
-
-//     //randomly pick a chapter from the book
-//     const randomChapter = Math.floor(Math.random() * (randomBook.TotalChapters - 1 + 1)) + 1;
-
-//     //count the total verses in the chapter : verses.length
-//     //fetch random verse between 1 - totalVerse number
-//     const response = await axios.get(`${BASE_URL}${randomBook.Book}+${randomChapter}?translation=kjv`);
-
-//     if (response.data && response.data.verses) {
-//       const verses = response.data.verses
-//       const randomIndex = Math.floor(Math.random() * verses.length);
-//       const randomVerse = verses[randomIndex];
-
-//       const stories = await Story.find({ user: req.user.id }).lean();
-
-//       res.render('dashboard', {
-//         name: req.user.firstName,
-//         stories,
-//         verseText: randomVerse.text,
-//         verseReference: `${response.data.reference}:${randomVerse.verse}`,
-//       });
-//     } else {
-//       throw new Error('Invalid API response');
-//     }
-//   } catch (err) {
-//     console.error(err);
-//     res.render('error/500');
-//   }
-// });
-
-
-// module.exports = router

@@ -1,11 +1,12 @@
-<h3>Welcome {{name}}</h3>
+<h2>Welcome {{name}}</h2>
 
-<div class="container" id="content">
+<div class="container dashboard-main" id="content">
 
-  <h4>Verse of the Day:</h4>
-  <p>" {{verseText}}"</p>
-  <p>{{verseReference}}</p>
-  <span>Meditate on the word and write down your thoughts</span>
+  <h4>Today's bible verse:</h4>
+  <p id="verseText">" {{verseText}}"</p>
+  <p id="verseReference">{{verseReference}}</p>
+  <span>- Meditate on the word and write down your thoughts</span><br>
+  <a href="/dashboard" id="generateVerse" class="btn btn-primary">New verse?</a>
 
   {{#if stories}}
   <table class="striped">
@@ -46,3 +47,6 @@
   {{/if}}
 
 </div>
+
+
+

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300&family=Lato:wght@300;400;700&display=swap');
+
+body {
+  font-family: Josefin Sans, sans-serif;
+}
+
 p{
  margin: 10px 0 !important;
 }
@@ -21,8 +27,13 @@ p{
  width: 180px;
 }
 
-
-.row {
+.post-container {
   display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
 
+
+.dashboard-main > span,p {
+  font-style: italic;
 }
