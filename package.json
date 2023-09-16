@@ -4,8 +4,8 @@
   "description": "app to create public and private stories",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=production node app",
-    "dev": "NODE_ENV=development nodemon app"
+    "start": "node app.js",
+    "dev": "nodemon app"
   },
   "author": "Woon",
   "license": "MIT",
